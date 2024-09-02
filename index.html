@@ -2,73 +2,62 @@
 <html lang="es">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Mi Página Personal</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f0f0f0;
-    }
-
-    header {
-      background-color: #022246;
-      color: white;
-      text-align: center;
-      padding: .81em 0;
-    }
-
-    main {
-      padding: 2em;
-      max-width: 1200px;
-      margin: auto;
-      background-color: white;
-      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    }
-
-    section {
-      margin-bottom: 2em;
-    }
-
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      margin-top: 1em;
-    }
-
-    th,
-    td {
-      padding: .61em;
-      border: 1px solid #ddd;
-      text-align: center;
-    }
-
-    th {
-      background-color: #022246;
-      color: white;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Haisel Ramírez</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
 
 <body>
 
   <header>
-    <h1>Mi Página Personal</h1>
+    <h1>Haisel Ramírez Brito</h1>
   </header>
 
+  <nav>
+    <a href="#biografia">Biografía</a>
+    <a href="#contacto">Contacto</a>
+    <a href="#estudios">Estudios</a>
+    <a href="#horario">Horario</a>
+  </nav>
+
   <main>
-    <section>
-      <h2>Datos Biográficos</h2>
-      <p><strong>Nombre:</strong> [Tu Nombre]</p>
-      <p><strong>Edad:</strong> [Tu Edad]</p>
-      <p><strong>Ocupación:</strong> Estudiante</p>
-      <p><strong>Intereses:</strong> [Tus Intereses]</p>
+    <section id="biografia">
+      <h2>Sobre mí</h2>
+      <p><strong>Nombre: Haisel Ramírez Brito</strong></p>
+      <hghp><strong>Fecha de Nac.: </strong>02-10-1987</hghp>
+      <p><strong>Ocupación:</strong> Desarrollador Web Full Stack & Estudiante Informatica</p>
+      <p><strong>Nacionalidad:</strong> Dominicana</p>
+      <p><strong>Estado Civil:</strong> Casado</p>
     </section>
 
-    <section>
-      <h2>Horario de Clases</h2>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p><strong>Email:</strong> hramirez98@uasd.edu.do</p>
+      <p><strong>Teléfono:</strong> 829-658-2989</p>
+      <p><strong>Redes Sociales:</strong></p>
+      <ul>
+        <li><a href="#">LinkedIn</a>:<b>haisel ramirez</b></li>
+        <li><a href="#">GitHub</a>:<b>@haisel03</b></li>
+        <li><a href="#">Twitter</a>:<b>@haisel03</b></li>
+      </ul>
+    </section>
+
+    <section id="estudios">
+      <h2>Estudios Realizados</h2>
+      <p><strong>Carrera Universitaria:</strong> Lic. en Informatica (Termino)</p>
+      <p><strong>Institución:</strong> Universidad Autónoma de Santo Domingo</p>
+      <p><strong>Estudios Anteriores:</strong></p>
+      <ul>
+        <li>Técnico en Informatica - Las Mercedes - 2006</li>
+        <li>Desarrollo de Apps - INFOTEP - 2018</li>
+        <li>Tecnico Profesional Desarrollo Web - UASD - 2018</li>
+      </ul>
+    </section>
+
+    <section id="horario">
+      <h2>Horario Actual</h2>
       <table>
         <thead>
           <tr>
@@ -78,50 +67,140 @@
             <th>Miércoles</th>
             <th>Jueves</th>
             <th>Viernes</th>
-            <th>Sabado</th>
+
           </tr>
         </thead>
         <tbody>
           <tr>
-            <td>8:00 - 10:00</td>
-            <td>Matemáticas</td>
-            <td>Historia</td>
-            <td>Química</td>
-            <td>Matemáticas</td>
-            <td>Física</td>
-            <td>Física</td>
+            <td>7:00</td>
+            <td></td>
+            <td></td>
+            <td rowspan="2" class="bg">Lab. Programación III</td>
+            <td></td>
+            <td></td>
+
           </tr>
           <tr>
-            <td>10:00 - 12:00</td>
-            <td>Física</td>
-            <td>Química</td>
-            <td>Historia</td>
-            <td>Biología</td>
-            <td>Matemáticas</td>
-            <td>Matemáticas</td>
+            <td>8:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
           </tr>
           <tr>
-            <td>12:00 - 14:00</td>
-            <td>Inglés</td>
-            <td>Física</td>
-            <td>Matemáticas</td>
-            <td>Inglés</td>
-            <td>Química</td>
-            <td>Química</td>
+            <td>9:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
           </tr>
           <tr>
-            <td>14:00 - 16:00</td>
-            <td>Libre</td>
-            <td>Inglés</td>
-            <td>Biología</td>
-            <td>Libre</td>
-            <td>Historia</td>
-            <td>Historia</td>
+            <td>10:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>11:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>12:00</td>
+            <td rowspan="2" class="bg">Bioetica</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>13:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>14:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>15:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>16:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+
+          </tr>
+          <tr>
+            <td>17:00</td>
+            <td rowspan="4" class="bg">Base de Datos II</td>
+            <td></td>
+            <td></td>
+            <td rowspan="2" class="bg">Base de Datos II</td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>18:00</td>
+            <td class="bg">Inglés Técnico</td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>19:00</td>
+            <td rowspan="3" class="bg">Física para Informática</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>20:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td>21:00</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
           </tr>
         </tbody>
       </table>
     </section>
   </main>
+
+  <footer>
+    <p>&copy; 2024 Haisel Ramirez. Todos los derechos reservados.</p>
+  </footer>
 
 </body>
 
