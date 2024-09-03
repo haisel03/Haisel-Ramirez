@@ -2,12 +2,12 @@ body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f0f0f0;
+  background-color: #e8e0e0;
   font-size: 15px;
 }
 
 header {
-  background-color: #007BFF;
+  background-color: #05366a;
   color: white;
   text-align: center;
   padding: 1em 0;
@@ -52,7 +52,7 @@ td {
 }
 
 th {
-  background-color: #007BFF;
+  background-color: #05366a;
   color: white;
 }
 
